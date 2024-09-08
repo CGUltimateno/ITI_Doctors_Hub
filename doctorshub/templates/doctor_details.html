@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card p-4">
+                <div class="card-body">
+                    <h2 class="text-center">{{ doctor.name }}</h2>
+                    <p><strong>Phone:</strong> {{ doctor.phone }}</p>
+                    <p><strong>Address:</strong> {{ doctor.address }}</p>
+                    <p><strong>Specialization:</strong> {{ doctor.specialization.name }}</p>
+                    <p><strong>Area:</strong> {{ doctor.area.name }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
