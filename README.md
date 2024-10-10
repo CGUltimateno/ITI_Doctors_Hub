@@ -35,7 +35,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/doctorshub.git
+   git clone https://github.com/CGUltimateno/ITI_Doctors_Hub.git
    cd doctorshub
 2. **Create and Activate a Virtual Environment:**
    
